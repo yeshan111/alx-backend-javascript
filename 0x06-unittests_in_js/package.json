@@ -1,0 +1,23 @@
+{
+  "name": "unittests_in_js",
+  "version": "1.0.0",
+  "description": "Learn how unittest in js works",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --require babel-register --exit"
+  },
+  "author": "Messih Grmay <mesihgrmay@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2",
+    "sinon": "^15.0.2"
+  }
+}
